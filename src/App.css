@@ -11,11 +11,12 @@ body {
 }
 
 .container {
-  background-color: hsl(213, 19%, 18%);
+  background: rgb(31,38,48);
+  background: linear-gradient(180deg, rgba(31,38,48,1) 0%, rgba(32,39,49,1) 35%, rgba(23,30,40,1) 100%);
   color: hsl(0, 0%, 100%) !important;
   border-radius: 1rem;
-  max-width: 25rem;
-  padding: 1rem;
+  max-width: 22rem;
+  padding: 2rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -30,6 +31,8 @@ body {
 
 .header {
   font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
 }
 
 .description {
@@ -39,16 +42,20 @@ body {
 }
 
 .ratings-section {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-right: 1rem;
 }
 
 .rating-button {
   /* removing button decorations*/
-  background-color: black;
-	color: inherit;
+  background-color: hsl(213, 19%, 18%);
+	color: hsl(217, 12%, 63%);
+
+  font-size: 1rem;
+  font-weight: bold;
 	border: none;
 	padding: 1rem;
 	cursor: pointer;
@@ -56,12 +63,19 @@ body {
 
   border-radius: 100%;
   margin-left: 1rem;
-  margin-left: 1rem;
 
   width: 3.5rem;
   height: 3.5rem;
 
   text-decoration: none;
+}
+
+.active-rating {
+  background-color: white !important;
+}
+
+.rating-button:hover {
+  background-color:hsl(25, 97%, 53%)
 }
 
 .submit-container {
@@ -72,14 +86,36 @@ body {
 
 .submit-button {
 
-  background-color: black;
+  background-color: hsl(25, 97%, 53%);
 	color: inherit;
 	border: none;
 	padding: 1rem;
 	cursor: pointer;
 	outline: inherit;
-  
-  border-radius: 2rem;
-  margin-top: 1rem;
 
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Overpass', sans-serif;
+  min-width: 20rem;
+
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+
+}
+
+.popup {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: rgb(31,38,48);
+  background: linear-gradient(180deg, rgba(31,38,48,1) 0%, rgba(32,39,49,1) 35%, rgba(23,30,40,1) 100%);
+  color: hsl(0, 0%, 100%) !important;
+  border-radius: 1rem;
+  max-width: 22rem;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  color: white;
 }
