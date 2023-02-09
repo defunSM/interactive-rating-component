@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sparkly-parfait-c0dbb8.netlify.app/)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/interactiveratingcomponentwithreact-ga0GWZulYu)
+- Live Site URL: [interactive-rating-component](https://sparkly-parfait-c0dbb8.netlify.app/)
 
 ## My process
 
