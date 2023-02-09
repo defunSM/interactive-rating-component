@@ -19,7 +19,7 @@ function RatingComponent(props) {
 function ThankYouComponent(props) {
   return (
     <div className="popup">
-      <img src={thankyou} alt="thankyou" width="200"></img>
+      <div className="thank-you-image"><img src={thankyou} alt="thankyou" width="200"></img></div>
       <div className="rating-header">You selected out {props.rating} of 5</div>
       <div className="thank-you-header">Thank you!</div>
       <div className="thank-you-description">

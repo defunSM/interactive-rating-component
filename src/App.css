@@ -119,3 +119,58 @@ body {
 
   color: white;
 }
+
+.thank-you-image {
+  display: flex;
+  justify-content: center;
+}
+
+
+.rating-header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: auto;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color:hsl(25, 97%, 53%);
+}
+
+.thank-you-header {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.thank-you-description {
+  margin-top: 1rem;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 300px !important;
+  }
+
+  .rating-button {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+
+  .rating-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+  }
+
+}
