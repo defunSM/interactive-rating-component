@@ -46,6 +46,8 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
+To run Local:
+> npm run start
 
 ### What I learned
 
