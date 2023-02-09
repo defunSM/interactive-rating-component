@@ -71,7 +71,8 @@ body {
 }
 
 .active-rating {
-  background-color: white !important;
+  background-color: hsl(217, 12%, 63%) !important;
+  color: white;
 }
 
 .rating-button:hover {
@@ -165,6 +166,10 @@ body {
     margin: 0px;
     padding: 0px;
     margin-left: 10px;
+  }
+
+  .rating-header {
+    font-size: 0.8rem;
   }
 
   .rating-section {
