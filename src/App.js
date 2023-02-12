@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="container">
       <div className="star"><img src={star} alt="star"></img></div>
-      <div className="header">How did we do?</div>
+      <h1 className="header">How did we do?</h1>
       <div className="description">
         Please let us know how we did with your support request. All feedback is appreciated
         to help us improve our offering!
